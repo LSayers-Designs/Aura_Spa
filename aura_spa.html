@@ -1,0 +1,44 @@
+<!doctype HTML>
+
+<!--Name: Letisha Rahming
+Project Title:  Aura_Spa
+File Name: aura_spa.html
+Description:  Challenge Excercise using JS, HTML and CSS
+Creation Date:	1/10/2020
+Date Completed: 1/10/2020
+Last Updated: 1/10/2020-->
+
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Aura Spa</title>
+	
+	<link href="" rel="stylesheet">
+	
+	<link href="spa.css" rel="stylesheet"/>
+	
+	<link img= src ".jpg" alt= Salon Foyer/>
+</head>
+
+<body>
+	<h1>Welcome to Aura Spa!</h1>
+	<h2 id ="clientName"></h2>
+	<h3 id="" ></h3> 
+	
+	<br/>
+	<h2> The hue of the background is now harmonized with your soul</h2>
+	
+	<script>
+	var clientName = window.prompt("Welcome to Aura Spa!  My name is Java.  What is your name precious soul?");
+	var color = window.prompt("Tell me, what color speaks to you today? \nCrimson \nSienna \nGold \nTurquoise \nAqua \nIndigo \nLavendar \nIvory  \nSilver \nBlack");
+	document.getElementById("clientName").textContent = "It is a pleasure to meet you, "+clientName;
+	document.getElementsByTagName("body")[0].style.backgroundColor=color
+
+	
+	</script>
+	
+	
+	
+</body>
+
+</html>

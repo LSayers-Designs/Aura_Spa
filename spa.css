@@ -4,38 +4,29 @@ File Name: spa.css
 Description:  Challenge Excercise using JS, HTML and CSS
 Creation Date:	1/10/2020
 Date Completed: 1/10/2020
-Last Updated: 1/10/2020
+Last Updated: 1/15/2020
 
 */
 
-
 body:{
-	background-color: Azure;
+	background-color: azure;
 }
 
 h1{
-	font-family:;
-	color:coral;
+	font-family: 'Delius Swash Caps', cursive;
+	color:azure;
+	font-style: italic;
 	text-align: center;
-	font-size: 55px;
+	font-size: 100px;
 	text-shadow: 2px 2px 3px ivory;
 }
 
-
-
 	
-h1{
-	color: Azure;
+h2{
+	color: azure;
+	font-family: 'Dancing Script', cursive;
 	text-align: center;
 	font-family:, cursive;
 }
-	
-	
-h2{
-	color: Azure;
-	text-align: center;
-	font-family: , cursive;
-}	
-	
 	
 	
